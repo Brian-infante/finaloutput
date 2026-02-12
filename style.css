@@ -1,0 +1,101 @@
+.h1{
+    background-color: black;
+    color: azure;
+    font-size: 80px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 5px 5px 5px cornsilk;
+}
+
+.b1{
+    background-image: url("images/museo_23_hero_02.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+img {
+    border-radius: 15px;
+}
+img:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+button{
+    border-radius: 15px;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.th1, .th2, .th3 {
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    box-shadow: 5px 5px 5px color(black red green blue);
+}
+
+.th1, .th2, .th3{
+    border-radius: 15px;
+}
+.th1:hover, .th2:hover, .th3:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+    color: black;
+    
+}
+
+.logopic{
+    position: absolute;
+    top: 65px;
+    left: 20px;
+}
+
+.h2{
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 65px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -50px;
+}
+
+.trd1{
+    font-size: 100px;
+    font-variant-numeric: oldstyle-nums;
+    background-color:  darkgoldenrod;
+    text-align: left;
+    
+}
+.rf1{
+    font-family:  Verdana, sans-serif;
+    font-size: 35px;
+    background-color:  darkgoldenrod;
+    text-align: left;
+}
+.rth3{
+    font-size: 70px;
+    background-color:darkgoldenrod;
+    text-align: left;
+}
+.btnback{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 25px;
+    width: 70px;
+    height: 50px;
+}
+
+.btn3{
+    border-radius: 50px;
+    padding: 20px;
+    font-size:20px;
+    color: azure;
+    transform: scale(1.05);
+    background-color: #333;
+    border-color: #ffffff;
+}
+
